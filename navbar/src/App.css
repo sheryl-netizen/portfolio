@@ -27,6 +27,27 @@
 .App-link {
   color: #61dafb;
 }
+.section {
+  padding: 50px;
+  text-align: center;
+}
+
+.home, .about, .portfolio, .contact {
+  min-height: 80vh;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.gallery img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
 
 @keyframes App-logo-spin {
   from {
